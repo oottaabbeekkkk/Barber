@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: system-ui;
+}
+*::before, *::after {
+    box-sizing: inherit;
+}
+span, a, label {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+$color1:#99BAED;
+$color2:#FBB400;
+.mmm{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 50%;
+}
+.mmma{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.nnn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+.part1{
+    width: 45%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.part2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    margin: auto;
+}
+.h2{
+    color: $color1;
+}
+.btn{
+    background-color: $color1;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 15px;
+}
+.aa{
+    text-decoration: none;
+    color: white;
+    background-color: $color1;
+    padding: 10px;
+    height: 100%;
+    width: 25%;
+    border-radius: 10px;
+}
+.a{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 25%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.a:hover{
+    background-color: $color1;
+    color: white;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.spn{
+    color: $color2;
+}
+.part3{
+    width: 40%;
+    margin: auto;
+}
+.h1{
+    font-size: 40px;
+}
+.h1q{
+    text-align: center;
+    font-size: 40px;
+}
+.p{
+    opacity: 0.5;
+    margin-top:30px ;
+    margin-bottom: 30px;
+}
+.part4{
+    width: 50%;
+}
+.pic2{
+    width: 100%;
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.box3{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+}
+.part5{
+    margin: auto;
+}
+.pic3{
+    padding: 10px;
+    border: whitesmoke;
+    border-radius: 10px;
+}
+.vvv{
+    padding: 20px;
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+    border-bottom: 10px solid $color1;
+}
+.vvv:hover{
+    background-color: $color1;
+}
+.h13{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.h12{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+.part6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    padding: 100px 30px;
+}
+.all2{
+    border-radius: 20%;
+    background-color: white;
+    overflow: hidden;
+    padding: 30px;
+}
+.pic4{
+    border-radius: 20px;
+    width: 100%;
+}
+.aller{
+    padding: 0;
+    background-color: #D9EBFB;
+}
+.xxx{
+    width: 32%;
+}
+.ccc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 70%;
+    margin: auto;
+    row-gap: 20px;
+}
+.all3{
+    padding: 40px;
+    text-align: center;
+}
+.lip{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.spnp{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: $color1;
+}
+.diver{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+.h1q{
+    padding: 30px;
+
+}
+.aaa{
+    text-align: center;
+    padding: 50px;
+    border-bottom: 2px solid $color1;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+}
+// media
+
+
+@media (max-width:1000px){
+    .box1{
+        width: 100%;
+    }
+    .part1{
+        width: 100%;
+    }
+    .part2{
+        width: 100%;
+    }
+    .part3{
+        text-align: center;
+        width: 100%;
+    }
+    .part4{
+        width: 100%;
+    }
+}
+@media (max-width:500px){
+    .mmm{
+        width: 100%;
+        text-align: center;
+    }
+    .nnn{
+        width: 100%;
+    }
+    .part4{
+        width: 100%;
+    }
+    .pic4{
+        width: 100%;
+    }
+    .box3{
+        padding: 0;
+    }
+    .all2{
+        padding: 0;
+    }
+    .vvv{
+        width: 100%;
+    }
+    .part6{
+        padding: 0;
+    }
+    .xxx{
+        width: 100%;
+    }
+}
